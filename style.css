@@ -99,3 +99,21 @@
 .hidden{
     display: none;
 }
+
+.dotts-container{
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+}
+
+.dott{ 
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(240, 240, 240, 0.5) ;
+}
+
+.dott.on{
+    background-color: rgb(255, 218, 218);
+}
