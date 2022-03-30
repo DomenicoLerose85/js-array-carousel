@@ -17,3 +17,43 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.img1.active {
+    height: 70%;
+    display: block;
+    position: relative;
+}
+
+.img2, .img3, .img4, .img5{
+    height: 70%;
+    display: none; 
+    overflow: hidden;
+
+}
+
+.img-container .img1, .img2, .img3, .img4, .img5{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img1-description, .img2-description, .img3-description, .img4-description, .img5-description{
+    width: 40%;
+    position: absolute;
+    top: 77%;
+    left: 68%;
+}
+
+.sweeden-h3, .swetzerland-h3, .england-h3, .germany-h3, .paradise-h3{
+    color: white;
+    text-align: right;
+    margin-right: 178px;
+}
+
+.sweeden-p, .swetzerland-p, .england-p, .germany-p, .paradise-p{
+    color: white;
+    font-size: 10px;
+    text-align: right;
+    margin-right: 170px;
+    line-height: 15px;
+}
